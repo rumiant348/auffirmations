@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">Affirmations</string>
+    <string name="app_name">Auffirmations</string>
     <string name="affirmation1">I am strong.</string>
     <string name="affirmation2">I believe in myself.</string>
     <string name="affirmation3">Each day is a new opportunity to grow and be a better version of myself.</string>
@@ -26,4 +26,12 @@
     <string name="affirmation8">I have the courage to follow my heart.</string>
     <string name="affirmation9">Things will unfold at precisely the right time.</string>
     <string name="affirmation10">I will be present in all the moments that this day brings.</string>
+    <string name="volk_1">Брат брату брат, брат</string>
+    <string name="volk_2">Лучше один раз упасть, чем упасть</string>
+    <string name="volk_3">Брат не тот, кто брат, а тот, кто брат</string>
+    <string name="volk_4">Запомните, а то забудете</string>
+    <string name="volk_5">Будь сильным но несильно будь</string>
+    <string name="volk_6">Брат, когда весь мир будет стоять против тебя, у меня будет стоять на тебя</string>
+    <string name="volk_7">Брат брат брат брат брат брат</string>
+    <string name="volk_8">Лучше иметь друга, чем друг друга</string>
 </resources>
