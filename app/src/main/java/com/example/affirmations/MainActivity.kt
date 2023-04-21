@@ -20,10 +20,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.Card
@@ -77,13 +74,17 @@ fun AffirmationCard(affirmation: Affirmation, modifier: Modifier = Modifier) {
     ) {
         Column(
             modifier = modifier
+                .fillMaxSize()
         ) {
             Image(
                 painter = painterResource(id = affirmation.imageResourceId),
                 contentDescription = stringResource(id = affirmation.stringResourceId),
                 modifier = Modifier
+                    .aspectRatio(3f, true)
+//                    .weight(1.3f)
                     .fillMaxWidth()
-                    .height(194.dp),
+//                    .height(300.dp),
+                ,
                 contentScale = ContentScale.Crop
             )
             Text(
