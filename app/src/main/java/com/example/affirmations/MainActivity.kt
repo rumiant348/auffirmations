@@ -36,7 +36,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.affirmations.data.Datasource
 import com.example.affirmations.model.Affirmation
-import com.example.affirmations.ui.theme.AffirmationsTheme
+import com.example.affirmations.ui.theme.affirmationsTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun AffirmationApp() {
-    AffirmationsTheme {
+    affirmationsTheme {
         AffirmationList(affirmationList = Datasource().loadAuf())
     }
 }
